@@ -9,3 +9,9 @@ var League = function(name, countries) {
 
     leagueCounter ++;
 }
+
+var Team = function(name, city, league) {
+    this.name = name;
+    this.city = city;
+    this.league = league;
+}
