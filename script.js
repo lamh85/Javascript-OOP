@@ -5,8 +5,8 @@ var leagueCounter = 1;
 var Country = function(name) {
     this.name = name;
 }
-canada = Country("Canada");
-usa = Country("USA")
+canada = new Country("Canada");
+usa = new Country("USA")
 
 var League = function(name, countries) {
     this.id = leagueCounter;
