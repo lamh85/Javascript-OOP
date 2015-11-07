@@ -23,8 +23,9 @@ var Team = function(name, city, league) {
     this.league = league;
 }
 
-var Player = function(name, birthYear, birthCountry) {
+var Player = function(name, birthYear, birthCountry, team) {
     this.name = name;
     this.birthYear = birthYear;
     this.birthCountry = birthCountry;
+    this.team = team
 }
